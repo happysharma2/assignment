@@ -1,0 +1,8 @@
+axe_asmt.api_call:
+  path: '/page_json/{apikey}/{nid}'
+  defaults:
+    _controller: '\Drupal\axe_asmt\Controller\SiteApiController::SiteApiAction'
+    title: 'API call'        
+  requirements:
+    _permission: 'access content'    
+  
